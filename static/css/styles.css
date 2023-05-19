@@ -80,6 +80,34 @@ input:focus :-ms-input-placeholder {
   transition: 250ms background ease-in;
 }
 
+.login-role {
+  background: transparent;
+  border: 0 solid;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 2px;
+  color: rgb(209, 205, 205);
+  display: block;
+  margin: 1rem;
+  padding: 0.5rem;
+  transition: 250ms background ease-in;
+  width: calc(100% - 2rem);
+  font-size: 14px;
+  appearance: none;
+  background-image: url('../img/arrow.png');
+  background-size: 10%;
+  background-position: right center;
+  background-repeat: no-repeat;
+  padding-right: 30px; 
+}
+
+.login-role:focus {
+  background: white;
+  border-radius: 6px;
+  color: black;
+  transition: 250ms background ease-in;
+}
+
+
 .login-forgot-pass {
   bottom: 0;
   color: white;
