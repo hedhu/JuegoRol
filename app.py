@@ -28,6 +28,7 @@ def paginaUsuario():
     cursor.execute("SELECT * FROM juegorol.usuarios")
     usuarios = cursor.fetchall()
     cursor.close()
+    "hola"
     return render_template("usuario.html")
 
 
